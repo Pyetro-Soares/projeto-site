@@ -1,0 +1,87 @@
+@charset "UTF-8" ;
+@font-face {
+    font-family: face;
+    src: url(idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*:root {
+    --cor0: #0300a1;
+    --cordofundo: #368eb1;
+    --cor01:#a6ff00e3;
+    --cor02:#a800a0;
+    --cor03:#0000ff;
+    --cor04:#006600;
+    --cor05:#00a500;
+    --cor:#050050;
+    }
+body{
+    background-color: #a0a0ff;
+    text-align: justify;
+}
+ nav{
+    background-color: transparent;
+    background-image: none;
+ }
+header{
+    background-color: var(--cordofundo);
+    background-image:linear-gradient(to bottom, var(--cordofundo), var(--cor ));
+    padding: 10px;
+    font-family: "Oswald" , sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+header > nav > h1{
+    font-size: 2.8em;
+}
+header > nav > a {
+    color: #368eb1;
+    text-decoration:none;
+    font-weight: bold;
+    padding: 7px;
+}
+header > nav > a:hover{
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: #a6ff00e3;
+    color: #a800a0;
+    transition-duration: .5s;
+}
+main {
+    background-color: #0000ff;
+    padding: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    background-color : #006600 ; 
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: -10px;
+}
+footer > a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+main > h2 {
+    font-family: face;
+    
+}
+div{
+    display: inline-block;
+    padding: 25px ;
+    background-color: #00a500;
+    border-radius: 7px;
+    
+}
+
