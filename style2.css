@@ -12,18 +12,20 @@
     --cor04: #524421;
     --cor05: #332D1F;
 }
-body{
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor03);
-}
-header{
-    background-color: var(--cor01);
+nav{
+    background-image: linear-gradient(to bottom, #470000, var(--cor01));
     margin: 3px;
     padding: 10px;
     padding-bottom: 20px;
     border-radius: 10px;
     margin-bottom: -10;
+    text-align: center;
+    font-weight: 600;
+}
+body{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor03);
 }
 header>nav>h1{
     font-size: 2.5em;
@@ -57,14 +59,17 @@ main{
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    max-width: 90%;
+    max-width: 600px;
     min-width: 300px;
     border-radius: 7px;
     border-top-left-radius:0px;
     border-top-right-radius:0px;
 }
+main > p{
+    line-height: 25px;
+}
 main>a{
     text-decoration:underline;
     color: black;
-
+    text-decoration: none;
 }
